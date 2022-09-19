@@ -1,0 +1,122 @@
+
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+picture{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #0E0810;
+}
+.container-top-bar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container-top-bar-opciones a{
+    margin-left: 20px;
+}
+.container-top-bar-opciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.container-top-bar-opciones h1{
+   color: white;
+}
+.container-top-bar-opciones a{
+    color: white;
+    font-size: 25px;
+ }
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.container-picture img{
+    width: 25%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8D8D8;
+}
+.header-picture img{
+    padding: 20px;
+}
+.container-programas1{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.p-title{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+}
+.container-programas2{
+    display: flex;
+    justify-content: center;
+}
+.a-hover{
+    transition: all 1.5s;
+}
+.a-hover:hover{
+    transform: scale(1.08);
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.container-footer-col{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container-footer-col div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-footer-col-div,h1,h3,h4{
+    color: white;
+}
+.container-frame-maps{
+    margin-top: 4%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.container-frame-maps iframe{
+    border-radius: 20px;
+}
+.title-conoce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.title-conoce p{
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    border-bottom: 2px solid black;
+}
+.container-title-facultad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-title-facultad p{
+    font-size: 45px;
+    font-weight: 700;
+}

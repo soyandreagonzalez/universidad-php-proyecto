@@ -1,0 +1,191 @@
+
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    padding: 50px 50px 0px 50px;
+    background-color: #5671673f;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+ 
+}
+.container-form{
+    display: grid;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+  
+}
+.container-form-estudiantes{
+    display: grid;
+    align-items: center;
+    background-color: #275950;
+    border-radius: 13px;
+    box-shadow: 0px 0px 9px -2px;
+}
+.container-form-docentes{
+    display: grid;
+    align-items: center;
+    background-color: #275950;
+    border-radius: 13px;
+    box-shadow: 0px 0px 9px -2px;
+}
+.container-picture-logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.container-picture-logo img{
+    width: 15%;
+}
+.container-picture-docente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+.container-picture-docente img{
+    width: 100%;
+    
+  
+    border-radius: 13px;
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.75);
+}
+.container-form-docente{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+.container-form-docente p{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.container-form-docente form{
+    display: grid;
+    gap: 14px;
+    margin-top: 20%;
+    margin-right: -18%;
+    margin-left: -24%;
+}
+.container-form-docente form label{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container-form-docente form input{
+    border-radius: 13px;
+    border: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+.container-form-selects{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-form-selects div{
+    display: flex;
+    margin-right: 15px;
+    gap: 5px;
+    color: white;
+}
+.container-form-button{
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-form-button button{
+    border-radius: 20px;
+    font-size: 17px;
+    width: 85%;
+    background-color: #260101;
+    color: white;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 0px;
+    transition: all 1.2s;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.container-form-button button:hover{
+    transform: scale(1.050);
+    background-color: white;
+    color: black;
+   
+}
+.container-picture-logo-estudiantes{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.container-picture-logo-estudiantes img{
+    width: 15%;
+}
+.container-picture-estudiante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.container-picture-estudiante img{
+    width: 90%;
+    border-radius: 13px;
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.75);
+}
+.container-form-inicioSesion{
+    display: flex;
+    justify-content: end;
+    padding: 3%;
+}
+
+.container-form-inicioSesion a{
+    color: white;
+    font-size: 16px;
+
+}
+.container2-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.container2-form-form{
+    width: max-content;
+    background-color: #275950;
+    border-radius: 13px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+   
+}
+.container2-form-form h1{
+    color: white;
+    text-align: center;
+}
+.container2-form-form label{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.container2-form-form input{
+    border-radius: 13px;
+    border: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+
